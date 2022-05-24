@@ -4,27 +4,42 @@
     box-sizing: border-box;
 }
 header{
-    padding: 5px 15px;
+    padding-top: 15px;
 }
 img{
+    padding-left: 15px;
     width: 8%;
     vertical-align: middle;
 }
-h1{
+nav h4{
     padding-left: 5px;
     display: inline-block;
     vertical-align: middle;
     color: #5F6368;
     font-weight: 500;
 }
-li{
+ul li{
     display: inline-block;
     list-style-type: none;
     padding-right: 25px;
     font-weight: 500;
     cursor: pointer;
 }
-a{
+ul li a{
     text-decoration: none;
     color: #5F6368;
+}
+.letter li{
+    list-style-type: lower-alpha;
+}
+main h2{
+    padding-top: 50px;
+    font-size: 25px;
+}
+p{
+    padding-top: 10px;
+    line-height: 25px;
+}
+p a{
+    text-decoration: none;
 }
