@@ -18,11 +18,10 @@ include 'database.php';
             <img src="logo.png" alt="logo">
             <h4>Privacy e termini</h4>
             <ul>
-                <li><a href="#">Introduzione</a> </li>
-                <li><a href="#">Norme sulla privacy</a></li>
-                <li><a href="#">Termini di servizio</a> </li>
-                <li><a href="#">Tecnologie</a></li>
-                <li><a href="#">Domande frequenti</a></li>
+                <li><?php for($i = 0;$i < count($nav);$i++){
+                    echo $nav[$i];
+                };
+                ?></li>
             </ul>
         </nav>
     </header>
@@ -37,7 +36,12 @@ include 'database.php';
         </div>
     </main>
     <footer>
-
+        <div class="container py-3">
+        <?php for($i = 0; $i < count($footer); $i++){
+            echo $footer[$i];
+        };
+        ?>
+        </div>
     </footer>
 </body>
 </html>
