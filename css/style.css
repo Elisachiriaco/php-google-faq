@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 5px 15px;
+}
+img{
+    width: 8%;
+    vertical-align: middle;
+}
+h1{
+    padding-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #5F6368;
+    font-weight: 500;
+}
+li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #5F6368;
+}
